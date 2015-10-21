@@ -1,3 +1,3 @@
 # Android-TextInputLayoutExample
 
-First Commit
+Sample application for TextInputLayout
