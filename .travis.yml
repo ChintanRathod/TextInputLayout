@@ -11,3 +11,18 @@ android:
 
     # The SDK version used to compile your project
     - android-19
+
+jdk:
+  - oraclejdk7
+
+script:
+  - ./gradlew clean build
+
+notifications:
+  email: false
+
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.gradle
