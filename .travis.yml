@@ -18,9 +18,6 @@ before_install:
 jdk:
   - oraclejdk7
 
-script:
-  - ./gradlew clean build
-
 notifications:
   email: false
 
