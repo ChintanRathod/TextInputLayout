@@ -28,5 +28,5 @@ TextInputLayout is a good widget which is replacement of EditText. In this sampl
         }
     }
 
-![Demo](https://github.com/rathodchintan/TextInputLayout/blob/master/TextInputLayout%20Custom%20Font.mp4)
+![](https://github.com/rathodchintan/TextInputLayout/blob/master/TextInputLayout%20Demo.gif)
 
