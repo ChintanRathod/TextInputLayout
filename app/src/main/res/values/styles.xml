@@ -5,4 +5,13 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="TextAppearence.TextInputLayout.Blue" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/make_me_blue</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearence.TextInputLayout.Red" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/make_me_red</item>
+    </style>
+
 </resources>
