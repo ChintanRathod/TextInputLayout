@@ -1,5 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -9,12 +10,22 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <android.support.design.widget.TextInputLayout
+    <EditText
+        android:id="@+id/edtOrdinary"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:hint="This is ordinary EditText hint"
+        android:inputType="text"
+        android:singleLine="true"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/TextAppearence.TextInputLayout.Blue">
 
         <EditText
-            android:id="@+id/firstName"
+            android:id="@+id/edtFirstName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="First Name"
@@ -24,8 +35,10 @@
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilLastName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/TextAppearence.TextInputLayout.Red">
 
         <EditText
             android:id="@+id/lastName"
@@ -39,7 +52,8 @@
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@android:style/TextAppearance">
 
         <EditText
             android:id="@+id/mail"
